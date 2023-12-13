@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Port Scanner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- -->
+  <div class="container">
+    <h1>Port Scanner</h1>
+
+    <form id="portScannerForm">
+      <label for="host">Host:</label>
+      <input type="text" id="host" name="host" placeholder="Enter host" required>
+
+      <label for="startPort">Start Port:</label>
+      <input type="number" id="startPort" name="startPort" placeholder="Enter start port" required>
+
+      <label for="endPort">End Port:</label>
+      <input type="number" id="endPort" name="endPort" placeholder="Enter end port" required>
+
+      <button type="button"id="scanning">Scan Ports</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
